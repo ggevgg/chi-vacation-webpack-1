@@ -13,59 +13,80 @@
 							</div>
 						</uib-accordion-heading>
 						<div class="manual">
-							<h1 class="text-center">Описание работы с системой запроса отпусков и day-off <br>для менеджеров CHI Software</h1>
+							<h1 class="text-center">Описание работы с системой запроса отпусков и day-off <br>для менеджеров CHI
+								Software</h1>
 							<div class="scr-holder">
 								<img class="img-responsive" src="../../../assets/images/scr-02.jpg" alt="image description">
 							</div>
-							<p>Создание запроса на отпуск или day-off для любого пользователя системы одинаково (<a ui-sref="manual">см. инструкцию для сотрудников</a>).</p>
-							<p>Для менеджера также существует отдельный, недоступный рядовому пользователю интерфейс для подтверждения/отказа в отпусках и просмотра статистики.</p>
+							<p>Создание запроса на отпуск или day-off для любого пользователя системы одинаково (<a
+									ui-sref="manual">см. инструкцию для сотрудников</a>).</p>
+							<p>Для менеджера также существует отдельный, недоступный рядовому пользователю интерфейс для
+								подтверждения/отказа в отпусках и просмотра статистики.</p>
 							<ul class="manual-list">
 								<li>
 									<h2>1. Списки отделов и пользователей</h2>
-									<p>Списки отделов и пользователей отображаются в левой части страницы менеджера. По нажатию на кнопку с названием отдела в списке пользователей будут отображаться только сотрудники этого отдела, и вся информация на странице будет выводиться только по этому отделу.</p>
-									<p>По нажатию на пользователя будет автоматически подсвечен его отдел, отображены только пользователи из его отдела, и вся информация на странице будут выводиться только по этому человеку.</p>
-									<p>Над списком групп находится фильтр удаленных пользователей <i>Show deleted users</i>. При включенном чекбоксе <i>Show deleted users</i> в списке будут показаны только удаленные пользователи (люди, которые помечены админитратором как уволенные, но еще не удалены из системы окончательно).</p>
+									<p>Списки отделов и пользователей отображаются в левой части страницы менеджера. По нажатию на кнопку
+										с названием отдела в списке пользователей будут отображаться только сотрудники этого отдела, и вся
+										информация на странице будет выводиться только по этому отделу.</p>
+									<p>По нажатию на пользователя будет автоматически подсвечен его отдел, отображены только пользователи
+										из его отдела, и вся информация на странице будут выводиться только по этому человеку.</p>
+									<p>Над списком групп находится фильтр удаленных пользователей <i>Show deleted users</i>. При
+										включенном чекбоксе <i>Show deleted users</i> в списке будут показаны только удаленные пользователи
+										(люди, которые помечены админитратором как уволенные, но еще не удалены из системы окончательно).
+									</p>
 									<p>Над списком пользователей находится поле для поиска по имени/отделу.</p>
 								</li>
 								<li>
 									<h2>2. Основное меню</h2>
-									<p>Основное меню находится в верхней части страницы. При помощи него можно переключатся между отображением отпусков (<i>Vacations</i>), отображением Day-off (<i>Days-off</i>) и календарем (<i>Calendar</i>).</p>
+									<p>Основное меню находится в верхней части страницы. При помощи него можно переключатся между
+										отображением отпусков (<i>Vacations</i>), отображением Day-off (<i>Days-off</i>) и календарем
+										(<i>Calendar</i>).</p>
 								</li>
 								<li>
 									<h2>3. Фильтры отпусков по статусам</h2>
 									<p>Фильтры отпусков по статусам находятся под основным меню страницы:</p>
 									<ul class="square">
 										<li>
-											<b>NEW:</b> По нажатию на кнопку New (желтая) отображаются запросы, еще не обработанные менеджером.
+											<b>NEW:</b> По нажатию на кнопку New (желтая) отображаются запросы, еще не обработанные
+											менеджером.
 										</li>
 										<li>
-											<b>CONFIRMED:</b> По нажатию на эту кнопку (синяя) доступен выпадающий список с вариантами <i>Confirmed</i>, <i>In progress</i>, <i>History</i>.
+											<b>CONFIRMED:</b> По нажатию на эту кнопку (синяя) доступен выпадающий список с вариантами
+											<i>Confirmed</i>, <i>In progress</i>, <i>History</i>.
 											<ul>
 												<li>
-													<b>CONFIRMED:</b> <i><b>Confirmed</b></i> – отображаются подтверждённые менеджером отпуска, начальная дата которых ещё не наступила.
+													<b>CONFIRMED:</b> <i><b>Confirmed</b></i> – отображаются подтверждённые менеджером отпуска,
+													начальная дата которых ещё не наступила.
 												</li>
 												<li>
-													<b>CONFIRMED:</b> <i><b>In progress</b></i> – подтвержденные отпуска, актуальные на текущий момент
+													<b>CONFIRMED:</b> <i><b>In progress</b></i> – подтвержденные отпуска, актуальные на текущий
+													момент
 												</li>
 												<li>
-													<b>CONFIRMED:</b> <i><b>History</b></i> – подтвержденные отпуска, конечная дата которых уже прошла (архив отгулянных отпусков)
+													<b>CONFIRMED:</b> <i><b>History</b></i> – подтвержденные отпуска, конечная дата которых уже
+													прошла (архив отгулянных отпусков)
 												</li>
 											</ul>
 										</li>
 										<li>
-											<b>REJECTED:</b> По нажатию на кнопку Rejected (красная) отображаются запросы, которые были отклонены менеджером. В других вкладках они выведены не будут.
+											<b>REJECTED:</b> По нажатию на кнопку Rejected (красная) отображаются запросы, которые были
+											отклонены менеджером. В других вкладках они выведены не будут.
 										</li>
 										<li>
 											<b>ALL:</b> По нажатию на кнопку All отображаются все отпуска.
 										</li>
 									</ul>
-									<p><b>!!! При выборе любого из этих фильтров вся информация на странице будет отображаться исключительно по этому фильтру.</b></p>
+									<p><b>!!! При выборе любого из этих фильтров вся информация на странице будет отображаться
+											исключительно по этому фильтру.</b></p>
 								</li>
 								<li>
 									<h2>4. Запросы на отпуск</h2>
-									<p>Запрос на отпуск можно принять или отклонить. Отпуска отображаются в зависимости от фильтров, описанных в пунктах 1 и 3.</p>
-									<p>С помощью фильтра по дате можно выбрать временной период, за который будут отображаться запросы.</p>
-									<p>Подтвердить отпуск – кнопка <i>Confirm</i>. Отказать в отпуске – кнопка <i>Reject</i>. При подтверждении/отказе будет отправлено уведомление на e-mail сотрудника, который написал заявку.</p>
+									<p>Запрос на отпуск можно принять или отклонить. Отпуска отображаются в зависимости от фильтров,
+										описанных в пунктах 1 и 3.</p>
+									<p>С помощью фильтра по дате можно выбрать временной период, за который будут отображаться запросы.
+									</p>
+									<p>Подтвердить отпуск – кнопка <i>Confirm</i>. Отказать в отпуске – кнопка <i>Reject</i>. При
+										подтверждении/отказе будет отправлено уведомление на e-mail сотрудника, который написал заявку.</p>
 									<p>Подробная инструкция приведена на рисунке 1.</p>
 									<div class="scr-holder text-center">
 										<img class="img-responsive" src="../../../assets/images/scr-03.jpg" alt="image description">
@@ -80,10 +101,16 @@
 										<li>6 – кнопка отклонения отпуска</li>
 										<li>7 – кнопка, открывающая окно информации о пользователе (см. пункт инструкции 7)</li>
 									</ul>
-									<p>После того как отпуск был принят, он переводится в статус Confirmed, и в зависимости от даты начала и даты конца будет отображен в соответствующей вкладке. Кнопка <i>Confirm</i> отображается только для запросов в статусе New.</p>
-									<p>После того как отпуск был отклонен, он переводится в статус Rejected и попадает в соответствующую вкладку. Кнопка <i>Reject</i> отображается на всех отпусках, кроме отпусков в статусе <i>Rejected</i>.</p>
-									<p>По нажатию на кнопки <i>Confirm</i> и <i>Reject</i> отправляется запрос на сервер. После удачного запроса на сервер нажатая кнопка исчезает.</p>
-									<p>При выборе статуса <i>Rejected</i> из пункта 3 колонка <i>Action</i> не будет отображаться, так как отклоненному отпуску нельзя изменить статус.</p>
+									<p>После того как отпуск был принят, он переводится в статус Confirmed, и в зависимости от даты начала
+										и даты конца будет отображен в соответствующей вкладке. Кнопка <i>Confirm</i> отображается только
+										для запросов в статусе New.</p>
+									<p>После того как отпуск был отклонен, он переводится в статус Rejected и попадает в соответствующую
+										вкладку. Кнопка <i>Reject</i> отображается на всех отпусках, кроме отпусков в статусе
+										<i>Rejected</i>.</p>
+									<p>По нажатию на кнопки <i>Confirm</i> и <i>Reject</i> отправляется запрос на сервер. После удачного
+										запроса на сервер нажатая кнопка исчезает.</p>
+									<p>При выборе статуса <i>Rejected</i> из пункта 3 колонка <i>Action</i> не будет отображаться, так как
+										отклоненному отпуску нельзя изменить статус.</p>
 								</li>
 								<li>
 									<h2>5. Запрос на Day-off</h2>
@@ -91,7 +118,8 @@
 								</li>
 								<li>
 									<h2>6. Календарь</h2>
-									<p>В календаре отображаются отпуска в зависимости от фильтров, описанных в пунктах 1 и 3. Подробная инструкция на рис 2.</p>
+									<p>В календаре отображаются отпуска в зависимости от фильтров, описанных в пунктах 1 и 3. Подробная
+										инструкция на рис 2.</p>
 									<div class="scr-holder text-center">
 										<img class="img-responsive" src="../../../assets/images/scr-04.jpg" alt="image description">
 										<span>Рис. 2</span>
@@ -111,14 +139,16 @@
 								</li>
 								<li>
 									<h2>7. Информация о пользователе</h2>
-									<p>По нажатию на кнопку 7 пункта 4 открывается модальное окно информации о пользователе. В правом верхнем углу модального окна находится кнопка редактирования, по нажатию на которую откроется модальное окно редактирования пользователя.</p>
+									<p>По нажатию на кнопку 7 пункта 4 открывается модальное окно информации о пользователе. В правом
+										верхнем углу модального окна находится кнопка редактирования, по нажатию на которую откроется
+										модальное окно редактирования пользователя.</p>
 								</li>
 							</ul>
 						</div>
 					</uib-accordion-group>
 				</uib-accordion>
 				<uib-accordion>
-					<uib-accordion-group is-open="isCollapsed"  id="user_manual">
+					<uib-accordion-group is-open="isCollapsed" id="user_manual">
 						<uib-accordion-heading ng-click="isCollapsed = !isCollapsed">
 							<div class="row">
 								<div class="col-md-1 col-xs-2 text-center">
@@ -128,212 +158,553 @@
 							</div>
 						</uib-accordion-heading>
 						<div class="manual">
-							<div style="line-height:1.68292;margin-top:0pt;margin-bottom:0pt">
-								<p style="line-height:1.38;margin-top:0pt;margin-bottom:0pt;text-align:center"><strong style="font-weight:normal"><strong style="background-color:transparent;color:#000000;font-family:arial;font-size:11pt;font-style:normal;font-variant:normal;font-weight:700;text-decoration:none;vertical-align:baseline;white-space:pre-wrap">Описание работы с системой запроса отпусков, Day-off и Work From Home</strong></strong></p>
-								<p style="line-height:1.38;margin-top:0pt;margin-bottom:0pt;text-align:center"><strong style="font-weight:normal"><strong style="background-color:transparent;color:#000000;font-family:arial;font-size:11pt;font-style:normal;font-variant:normal;font-weight:700;text-decoration:none;vertical-align:baseline;white-space:pre-wrap">для сотрудников CHI Software</strong></strong></p>
-								&nbsp;
-								<p style="line-height:1.2;margin-top:0pt;margin-bottom:0pt"><strong style="font-weight:normal"><span style="background-color:transparent;color:#000000;font-family:arial;font-size:11pt;font-style:normal;font-variant:normal;font-weight:400;text-decoration:none;vertical-align:baseline;white-space:pre-wrap">Зарегистрироваться в системе самостоятельно невозможно, всех пользователей создает администратор. Каждый сотрудник получит свой логин и пароль от администратора системы – Юлии Рассохи.</span></strong></p>
-								&nbsp;
-								<p style="line-height:1.2;margin-top:0pt;margin-bottom:0pt"><strong style="font-weight:normal"><span style="background-color:transparent;color:#000000;font-family:arial;font-size:11pt;font-style:normal;font-variant:normal;font-weight:400;text-decoration:none;vertical-align:baseline;white-space:pre-wrap">После входа в систему пользователю будет доступно создание запроса на</span>&nbsp;<strong style="background-color:transparent;color:#000000;font-family:arial;font-size:11pt;font-style:normal;font-variant:normal;font-weight:700;text-decoration:none;vertical-align:baseline;white-space:pre-wrap">отпуск</strong><span style="background-color:transparent;color:#000000;font-family:arial;font-size:11pt;font-style:normal;font-variant:normal;font-weight:400;text-decoration:none;vertical-align:baseline;white-space:pre-wrap">, запроса на</span>&nbsp;<strong style="background-color:transparent;color:#000000;font-family:arial;font-size:11pt;font-style:normal;font-variant:normal;font-weight:700;text-decoration:none;vertical-align:baseline;white-space:pre-wrap">Day-Оff</strong><span style="background-color:transparent;color:#000000;font-family:arial;font-size:11pt;font-style:normal;font-variant:normal;font-weight:400;text-decoration:none;vertical-align:baseline;white-space:pre-wrap">, запроса на</span>&nbsp;<strong style="background-color:transparent;color:#000000;font-family:arial;font-size:11pt;font-style:normal;font-variant:normal;font-weight:700;text-decoration:none;vertical-align:baseline;white-space:pre-wrap">WFH</strong><span style="background-color:transparent;color:#000000;font-family:arial;font-size:11pt;font-style:normal;font-variant:normal;font-weight:400;text-decoration:none;vertical-align:baseline;white-space:pre-wrap">&nbsp;и&nbsp;</span><strong style="background-color:transparent;color:#000000;font-family:arial;font-size:11pt;font-style:normal;font-variant:normal;font-weight:700;text-decoration:none;vertical-align:baseline;white-space:pre-wrap">Unpaid Leave</strong><span style="background-color:transparent;color:#000000;font-family:arial;font-size:11pt;font-style:normal;font-variant:normal;font-weight:400;text-decoration:none;vertical-align:baseline;white-space:pre-wrap">, а также просмотр статистики данных статусов. После создания запроса автоматически через e-mail будет отправлено уведомление на </span><a style="text-decoration:none" href="mailto:hr@chisw.com" rel=" noopener noreferrer" target="_blank"><u style="background-color:transparent;color:#1155cc;font-family:arial;font-size:11pt;font-style:normal;font-variant:normal;font-weight:400;text-decoration:underline;vertical-align:baseline;white-space:pre-wrap">hr@chisw.com</u></a><span style="background-color:transparent;color:#000000;font-family:arial;font-size:11pt;font-style:normal;font-variant:normal;font-weight:400;text-decoration:none;vertical-align:baseline;white-space:pre-wrap">, </span><a style="text-decoration:none" href="mailto:management@chisw.com" rel=" noopener noreferrer" target="_blank"><u style="background-color:transparent;color:#1155cc;font-family:arial;font-size:11pt;font-style:normal;font-variant:normal;font-weight:400;text-decoration:underline;vertical-align:baseline;white-space:pre-wrap">management@chisw.com</u></a><span style="background-color:transparent;color:#000000;font-family:arial;font-size:11pt;font-style:normal;font-variant:normal;font-weight:400;text-decoration:none;vertical-align:baseline;white-space:pre-wrap"> и </span><a style="text-decoration:none" href="mailto:finance_department@chisw.com" rel=" noopener noreferrer" target="_blank"><u style="background-color:transparent;color:#1155cc;font-family:arial;font-size:11pt;font-style:normal;font-variant:normal;font-weight:400;text-decoration:underline;vertical-align:baseline;white-space:pre-wrap">finance_department@chisw.com</u></a><span style="background-color:transparent;color:#000000;font-family:arial;font-size:11pt;font-style:normal;font-variant:normal;font-weight:400;text-decoration:none;vertical-align:baseline;white-space:pre-wrap">. Department менеджер подтверждает запрос непосредственно в системе, а уведомление о подтверждении запроса приходит на почту.</span></strong></p>
-								&nbsp;
-								<p style="line-height:1.2;margin-top:0pt;margin-bottom:0pt;margin-left:36pt;text-align:center"><strong style="font-weight:normal"><strong style="background-color:transparent;color:#000000;font-family:arial;font-size:11pt;font-style:normal;font-variant:normal;font-weight:700;text-decoration:none;vertical-align:baseline;white-space:pre-wrap">1. СТАТУС Vacation</strong></strong></p>
-								&nbsp;
-								<p style="line-height:1.2;margin-top:0pt;margin-bottom:0pt"><strong style="font-weight:normal"><span style="background-color:transparent;color:#000000;font-family:arial;font-size:11pt;font-style:normal;font-variant:normal;font-weight:400;text-decoration:none;vertical-align:baseline;white-space:pre-wrap">Всем сотрудникам доступно </span><strong style="background-color:transparent;color:#000000;font-family:arial;font-size:11pt;font-style:normal;font-variant:normal;font-weight:700;text-decoration:none;vertical-align:baseline;white-space:pre-wrap">20 дней отпуска</strong><span style="background-color:transparent;color:#000000;font-family:arial;font-size:11pt;font-style:normal;font-variant:normal;font-weight:400;text-decoration:none;vertical-align:baseline;white-space:pre-wrap"> в год - они начисляются с момента выхода на работу и накапливаются в течение 12-ти месяцев после даты выхода.</span></strong></p>
-								&nbsp;
-								<p style="line-height:1.2;margin-top:0pt;margin-bottom:0pt"><strong style="font-weight:normal"><span style="background-color:transparent;color:#000000;font-family:arial;font-size:11pt;font-style:normal;font-variant:normal;font-weight:400;text-decoration:none;vertical-align:baseline;white-space:pre-wrap">Отпуск берется не чаще чем один раз в три месяца. За 1 раз можно оформить не более 10 дней отпуска подряд.</span></strong></p>
-								<p style="line-height:1.2;margin-top:0pt;margin-bottom:0pt"><strong style="font-weight:normal"><span style="background-color:transparent;color:#000000;font-family:arial;font-size:11pt;font-style:normal;font-variant:normal;font-weight:400;text-decoration:none;vertical-align:baseline;white-space:pre-wrap">Накопленные дни отпуска используются в течение одного года (с даты первого рабочего дня) плюс 1 месяц. По истечении 13-ти месяцев (один год + один месяц) неиспользованные дни отпуска сгорают.</span></strong></p>
-								&nbsp;
-								<p style="line-height:1.2;margin-top:0pt;margin-bottom:0pt"><strong style="font-weight:normal"><strong style="background-color:transparent;color:#000000;font-family:arial;font-size:11pt;font-style:normal;font-variant:normal;font-weight:700;text-decoration:none;vertical-align:baseline;white-space:pre-wrap">Перенос неиспользованных дней отпуска</strong></strong></p>
-								<p style="line-height:1.2;margin-top:0pt;margin-bottom:0pt"><strong style="font-weight:normal"><span style="background-color:transparent;color:#000000;font-family:arial;font-size:11pt;font-style:normal;font-variant:normal;font-weight:400;text-decoration:none;vertical-align:baseline;white-space:pre-wrap">Можно переносить оставшиеся неиспользованные дни при условии подтверждения менеджером. На второй год можно переносить только дни текущего года. </span></strong></p>
-								<p style="line-height:1.2;margin-top:0pt;margin-bottom:0pt"><strong style="font-weight:normal"><span style="background-color:transparent;color:#000000;font-family:arial;font-size:11pt;font-style:normal;font-variant:normal;font-weight:400;text-decoration:none;vertical-align:baseline;white-space:pre-wrap">При этом перенесенные дни нужно будет использовать в течение 12-ти (двенадцати) месяцев. После прохождения этого времени они сгорают и повторно не переносятся. </span></strong></p>
-								<p style="line-height:1.2;margin-top:0pt;margin-bottom:0pt"><strong style="font-weight:normal"><span style="background-color:transparent;color:#000000;font-family:arial;font-size:11pt;font-style:normal;font-variant:normal;font-weight:400;text-decoration:none;vertical-align:baseline;white-space:pre-wrap">Исходя из описанного выше, все накопленные, перенесенные и подтвержденные менеджером отпускные дни нужно использовать в течение 2 (двух) лет.</span></strong></p>
-								&nbsp;
-								<p style="line-height:1.2;margin-top:0pt;margin-bottom:0pt"><strong style="font-weight:normal"><strong style="background-color:transparent;color:#000000;font-family:arial;font-size:11pt;font-style:normal;font-variant:normal;font-weight:700;text-decoration:none;vertical-align:baseline;white-space:pre-wrap">Расчет количества доступных дней</strong></strong></p>
-								<p style="line-height:1.2;margin-top:0pt;margin-bottom:0pt"><strong style="font-weight:normal"><span style="background-color:transparent;color:#000000;font-family:arial;font-size:11pt;font-style:normal;font-variant:normal;font-weight:400;text-decoration:none;vertical-align:baseline;white-space:pre-wrap">По умолчанию будет показано количество дней отпуска, доступных на текущее число. Для того, чтобы посмотреть, сколько дней отпуска будет доступно в определенный момент в будущем, нужно выбрать дату в полях “Start date” и “End date”. Система автоматически вычислит, сколько дней отпуска накопится к этому времени.</span></strong></p>
-								&nbsp;
-								<p style="line-height:1.2;margin-top:0pt;margin-bottom:0pt"><strong style="font-weight:normal"><strong style="background-color:transparent;color:#000000;font-family:arial;font-size:11pt;font-style:normal;font-variant:normal;font-weight:700;text-decoration:none;vertical-align:baseline;white-space:pre-wrap">Создание заявки на отпуск:</strong></strong></p>
-								<ul style="margin-top:0pt;margin-bottom:0pt">
-								  <li style="font-size:11pt;font-family:Arial;color:#000000;background-color:transparent;font-weight:400;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre-wrap">
-									<p style="line-height:1.2;margin-top:0pt;margin-bottom:0pt"><strong style="font-weight:normal"><span style="background-color:transparent;color:#000000;font-family:arial;font-size:11pt;font-style:normal;font-variant:normal;font-weight:400;text-decoration:none;vertical-align:baseline;white-space:pre-wrap">во вкладке “Vacation” нажать кнопку “Start date” и выбрать начальную дату отпуска,</span></strong></p>
-								  </li>
-								  <li style="font-size:11pt;font-family:Arial;color:#000000;background-color:transparent;font-weight:400;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre-wrap">
-									<p style="line-height:1.2;margin-top:0pt;margin-bottom:0pt"><strong style="font-weight:normal"><span style="background-color:transparent;color:#000000;font-family:arial;font-size:11pt;font-style:normal;font-variant:normal;font-weight:400;text-decoration:none;vertical-align:baseline;white-space:pre-wrap">нажать кнопку “End date” и выбрать конечную дату отпуска,</span></strong></p>
-								  </li>
-								  <li style="font-size:11pt;font-family:Arial;color:#000000;background-color:transparent;font-weight:400;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre-wrap">
-									<p style="line-height:1.2;margin-top:0pt;margin-bottom:0pt"><strong style="font-weight:normal"><span style="background-color:transparent;color:#000000;font-family:arial;font-size:11pt;font-style:normal;font-variant:normal;font-weight:400;text-decoration:none;vertical-align:baseline;white-space:pre-wrap">нажать кнопку “Send”.</span></strong></p>
-								  </li>
-								</ul>
-								&nbsp;
-								<p style="line-height:1.2;margin-top:0pt;margin-bottom:0pt"><strong style="font-weight:normal"><span style="background-color:transparent;color:#000000;font-family:arial;font-size:11pt;font-style:normal;font-variant:normal;font-weight:400;text-decoration:none;vertical-align:baseline;white-space:pre-wrap">Количество выбранных дней будет отображено в поле “Vacation days”.</span></strong></p>
-								<p style="line-height:1.2;margin-top:0pt;margin-bottom:0pt"><strong style="font-weight:normal"><span style="background-color:transparent;color:#000000;font-family:arial;font-size:11pt;font-style:normal;font-variant:normal;font-weight:400;text-decoration:none;vertical-align:baseline;white-space:pre-wrap">Количество дней отпуска, доступных на выбранную дату, появится в поле “Available days”. Запрашиваемое количество дней отпуска не должно превышать количество доступных дней. Также не допускается брать отпуск, пересекающийся с другим взятым отпуском или Day-Оff.</span></strong></p>
-								&nbsp;
-								<p style="line-height:1.2;margin-top:0pt;margin-bottom:0pt"><strong style="font-weight:normal"><strong style="background-color:transparent;color:#000000;font-family:arial;font-size:11pt;font-style:normal;font-variant:normal;font-weight:700;text-decoration:none;vertical-align:baseline;white-space:pre-wrap">Просмотр заявок на отпуск</strong></strong></p>
-								<p style="line-height:1.2;margin-top:0pt;margin-bottom:0pt"><strong style="font-weight:normal"><span style="background-color:transparent;color:#000000;font-family:arial;font-size:11pt;font-style:normal;font-variant:normal;font-weight:400;text-decoration:none;vertical-align:baseline;white-space:pre-wrap">Все запрошенные отпуска автоматически фильтруются в зависимости от даты и статуса. Текущий отпуск показывается в верхней части экрана, остальные дни отсортированы по вкладкам:</span></strong></p>
-								<ul style="margin-top:0pt;margin-bottom:0pt">
-								  <li style="font-size:11pt;font-family:Arial;color:#000000;background-color:transparent;font-weight:400;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre-wrap">
-									<p style="line-height:1.2;margin-top:0pt;margin-bottom:0pt"><strong style="font-weight:normal"><span style="background-color:transparent;color:#000000;font-family:arial;font-size:11pt;font-style:normal;font-variant:normal;font-weight:400;text-decoration:none;vertical-align:baseline;white-space:pre-wrap">Vacation requests – будут показаны заявки на отпуска, еще не обработанные менеджером;</span></strong></p>
-								  </li>
-								  <li style="font-size:11pt;font-family:Arial;color:#000000;background-color:transparent;font-weight:400;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre-wrap">
-									<p style="line-height:1.2;margin-top:0pt;margin-bottom:0pt"><strong style="font-weight:normal"><span style="background-color:transparent;color:#000000;font-family:arial;font-size:11pt;font-style:normal;font-variant:normal;font-weight:400;text-decoration:none;vertical-align:baseline;white-space:pre-wrap">Rejected vacations – заявки на отпуска, отклоненные менеджером;</span></strong></p>
-								  </li>
-								  <li style="font-size:11pt;font-family:Arial;color:#000000;background-color:transparent;font-weight:400;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre-wrap">
-									<p style="line-height:1.2;margin-top:0pt;margin-bottom:0pt"><strong style="font-weight:normal"><span style="background-color:transparent;color:#000000;font-family:arial;font-size:11pt;font-style:normal;font-variant:normal;font-weight:400;text-decoration:none;vertical-align:baseline;white-space:pre-wrap">Approved vacations – заявки на отпуск, уже подтвержденные менеджером, но начальная дата которых ещё не наступила;</span></strong></p>
-								  </li>
-								  <li style="font-size:11pt;font-family:Arial;color:#000000;background-color:transparent;font-weight:400;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre-wrap">
-									<p style="line-height:1.2;margin-top:0pt;margin-bottom:0pt"><strong style="font-weight:normal"><span style="background-color:transparent;color:#000000;font-family:arial;font-size:11pt;font-style:normal;font-variant:normal;font-weight:400;text-decoration:none;vertical-align:baseline;white-space:pre-wrap">Spent vacations – показываются подтвержденные менеджером заявки на отпуск, конечная дата которых уже прошла.</span></strong></p>
-								  </li>
-								</ul>
-								&nbsp;
-								<p style="line-height:1.2;margin-top:0pt;margin-bottom:0pt"><strong style="font-weight:normal"><strong style="background-color:transparent;color:#000000;font-family:arial;font-size:11pt;font-style:normal;font-variant:normal;font-weight:700;text-decoration:none;vertical-align:baseline;white-space:pre-wrap">Правила оформления отпуска</strong></strong></p>
-								&nbsp;
-								<p style="line-height:1.2;margin-top:0pt;margin-bottom:0pt"><strong style="font-weight:normal"><strong style="background-color:transparent;color:#000000;font-family:arial;font-size:11pt;font-style:normal;font-variant:normal;font-weight:700;text-decoration:none;vertical-align:baseline;white-space:pre-wrap">Сотруднику, работающему на outsource проектах, необходимо:</strong></strong></p>
-								<ol style="margin-top:0pt;margin-bottom:0pt">
-								  <li style="font-size:11pt;font-family:Arial;color:#000000;background-color:transparent;font-weight:400;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre-wrap">
-									<p style="line-height:1.2;margin-top:0pt;margin-bottom:0pt"><strong style="font-weight:normal"><span style="background-color:transparent;color:#000000;font-family:arial;font-size:11pt;font-style:normal;font-variant:normal;font-weight:400;text-decoration:none;vertical-align:baseline;white-space:pre-wrap">Согласовать даты отпуска с Менеджером Проекта или Sales Менеджером минимум за 1 месяц; </span></strong></p>
-								  </li>
-								  <li style="font-size:11pt;font-family:Arial;color:#000000;background-color:transparent;font-weight:400;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre-wrap">
-									<p style="line-height:1.2;margin-top:0pt;margin-bottom:0pt"><strong style="font-weight:normal"><span style="background-color:transparent;color:#000000;font-family:arial;font-size:11pt;font-style:normal;font-variant:normal;font-weight:400;text-decoration:none;vertical-align:baseline;white-space:pre-wrap">Предоставить контактные данные, по которым с ним можно будет связаться в экстренной ситуации в период отпуска;</span></strong></p>
-								  </li>
-								  <li style="font-size:11pt;font-family:Arial;color:#000000;background-color:transparent;font-weight:400;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre-wrap">
-									<p style="line-height:1.2;margin-top:0pt;margin-bottom:0pt"><strong style="font-weight:normal"><span style="background-color:transparent;color:#000000;font-family:arial;font-size:11pt;font-style:normal;font-variant:normal;font-weight:400;text-decoration:none;vertical-align:baseline;white-space:pre-wrap">После подтверждения клиентом дат отпуска, озвучить эти даты Department Менеджеру (если это не то же лицо, что и менеджер проекта); </span></strong></p>
-								  </li>
-								  <li style="font-size:11pt;font-family:Arial;color:#000000;background-color:transparent;font-weight:400;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre-wrap">
-									<p style="line-height:1.2;margin-top:0pt;margin-bottom:0pt"><strong style="font-weight:normal"><span style="background-color:transparent;color:#000000;font-family:arial;font-size:11pt;font-style:normal;font-variant:normal;font-weight:400;text-decoration:none;vertical-align:baseline;white-space:pre-wrap">Создать в Vacation заявку, которую апрувит Department Менеджер (не позднее чем за неделю до начала отпуска). </span><span style="color:#000000;font-family:arial;font-size:11pt;font-style:normal;font-variant:normal;font-weight:400;text-decoration:none;vertical-align:baseline;white-space:pre-wrap">Следует иметь в виду, что в некоторых случаях заявка может быть отклонена (топ-менеджментом, менеджерами проектов или клиентами).</span></strong></p>
-								  </li>
-								  <li style="font-size:11pt;font-family:Arial;color:#000000;background-color:transparent;font-weight:400;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre-wrap">
-									<p style="line-height:1.2;margin-top:0pt;margin-bottom:0pt"><strong style="font-weight:normal"><span style="background-color:transparent;color:#000000;font-family:arial;font-size:11pt;font-style:normal;font-variant:normal;font-weight:400;text-decoration:none;vertical-align:baseline;white-space:pre-wrap">Заполнить в системе часы за отработанный период до начала отпуска;</span></strong></p>
-								  </li>
-								  <li style="font-size:11pt;font-family:Arial;color:#000000;background-color:transparent;font-weight:400;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre-wrap">
-									<p style="line-height:1.2;margin-top:0pt;margin-bottom:0pt"><strong style="font-weight:normal"><span style="background-color:transparent;color:#000000;font-family:arial;font-size:11pt;font-style:normal;font-variant:normal;font-weight:400;text-decoration:none;vertical-align:baseline;white-space:pre-wrap">Передать всю необходимую информацию по проекту другому разработчику, если компания предоставляет замену на проекте на период отпуска:</span></strong></p>
-								  </li>
-								</ol>
-								<ul style="margin-top:0pt;margin-bottom:0pt">
-								  <li style="font-size:11pt;font-family:Arial;color:#000000;background-color:transparent;font-weight:400;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre-wrap;margin-left:49.0394pt">
-									<p style="line-height:1.2;margin-top:0pt;margin-bottom:0pt"><strong style="font-weight:normal"><span style="background-color:transparent;color:#000000;font-family:arial;font-size:11pt;font-style:normal;font-variant:normal;font-weight:400;text-decoration:none;vertical-align:baseline;white-space:pre-wrap">текущее положение дел: что проработано с заказчиком, что необходимо выполнить, в какие сроки;</span></strong></p>
-								  </li>
-								  <li style="font-size:11pt;font-family:Arial;color:#000000;background-color:transparent;font-weight:400;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre-wrap;margin-left:49.0394pt">
-									<p style="line-height:1.2;margin-top:0pt;margin-bottom:0pt"><strong style="font-weight:normal"><span style="background-color:transparent;color:#000000;font-family:arial;font-size:11pt;font-style:normal;font-variant:normal;font-weight:400;text-decoration:none;vertical-align:baseline;white-space:pre-wrap">контактную информацию заказчика, особенности работы с ним, особенности коммуникации, о чем уже договаривались ранее;</span></strong></p>
-								  </li>
-								  <li style="font-size:11pt;font-family:Arial;color:#000000;background-color:transparent;font-weight:400;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre-wrap;margin-left:49.0394pt">
-									<p style="line-height:1.2;margin-top:0pt;margin-bottom:0pt"><strong style="font-weight:normal"><span style="background-color:transparent;color:#000000;font-family:arial;font-size:11pt;font-style:normal;font-variant:normal;font-weight:400;text-decoration:none;vertical-align:baseline;white-space:pre-wrap">предварительное оценочное состояние дел на время отпуска;</span></strong></p>
-								  </li>
-								</ul>
-								&nbsp;
-								<p style="line-height:1.2;margin-top:0pt;margin-bottom:0pt"><strong style="font-weight:normal"><strong style="background-color:transparent;color:#000000;font-family:arial;font-size:11pt;font-style:normal;font-variant:normal;font-weight:700;text-decoration:none;vertical-align:baseline;white-space:pre-wrap">Сотруднику, работающему на outstaff проектах, необходимо:</strong></strong></p>
-								<ol style="margin-top:0pt;margin-bottom:0pt">
-								  <li style="font-size:11pt;font-family:Arial;color:#000000;background-color:transparent;font-weight:400;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre-wrap">
-									<p style="line-height:1.2;margin-top:0pt;margin-bottom:0pt"><strong style="font-weight:normal"><span style="background-color:transparent;color:#000000;font-family:arial;font-size:11pt;font-style:normal;font-variant:normal;font-weight:400;text-decoration:none;vertical-align:baseline;white-space:pre-wrap">Согласовать даты отпуска с Sales Менеджером/Outstaff Менеджером минимум за 1 месяц до начала отпуска;</span></strong></p>
-								  </li>
-								  <li style="font-size:11pt;font-family:Arial;color:#000000;background-color:transparent;font-weight:400;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre-wrap">
-									<p style="line-height:1.2;margin-top:0pt;margin-bottom:0pt"><strong style="font-weight:normal"><span style="background-color:transparent;color:#000000;font-family:arial;font-size:11pt;font-style:normal;font-variant:normal;font-weight:400;text-decoration:none;vertical-align:baseline;white-space:pre-wrap">Уведомить/согласовать даты отпуска с менеджером со стороны клиента минимум за 1 месяц до начала отпуска (уточнить у Outstaff Менеджера);</span></strong></p>
-								  </li>
-								  <li style="font-size:11pt;font-family:Arial;color:#000000;background-color:transparent;font-weight:400;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre-wrap">
-									<p style="line-height:1.2;margin-top:0pt;margin-bottom:0pt"><strong style="font-weight:normal"><span style="background-color:transparent;color:#000000;font-family:arial;font-size:11pt;font-style:normal;font-variant:normal;font-weight:400;text-decoration:none;vertical-align:baseline;white-space:pre-wrap">Предоставить контактные данные, по которым с ним можно будет связаться в экстренной ситуации в период отпуска;</span></strong></p>
-								  </li>
-								  <li style="font-size:11pt;font-family:Arial;color:#000000;background-color:transparent;font-weight:400;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre-wrap">
-									<p style="line-height:1.2;margin-top:0pt;margin-bottom:0pt"><strong style="font-weight:normal"><span style="background-color:transparent;color:#000000;font-family:arial;font-size:11pt;font-style:normal;font-variant:normal;font-weight:400;text-decoration:none;vertical-align:baseline;white-space:pre-wrap">Озвучить даты отпуска Department Менеджеру, после согласования их с клиентом;</span></strong></p>
-								  </li>
-								  <li style="font-size:11pt;font-family:Arial;color:#000000;background-color:transparent;font-weight:400;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre-wrap">
-									<p style="line-height:1.2;margin-top:0pt;margin-bottom:0pt"><strong style="font-weight:normal"><span style="background-color:transparent;color:#000000;font-family:arial;font-size:11pt;font-style:normal;font-variant:normal;font-weight:400;text-decoration:none;vertical-align:baseline;white-space:pre-wrap">Создать &nbsp;в Vacation заявку, которую апрувит Department Менеджер в сроки, оговоренные индивидуально. </span><span style="color:#000000;font-family:arial;font-size:11pt;font-style:normal;font-variant:normal;font-weight:400;text-decoration:none;vertical-align:baseline;white-space:pre-wrap">Следует иметь в виду, что в некоторых случаях заявка может быть отклонена (топ-менеджментом, менеджерами проектов или клиентами).</span></strong></p>
-								  </li>
-								  <li style="font-size:11pt;font-family:Arial;color:#000000;background-color:transparent;font-weight:400;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre-wrap">
-									<p style="line-height:1.2;margin-top:0pt;margin-bottom:0pt"><strong style="font-weight:normal"><span style="background-color:transparent;color:#000000;font-family:arial;font-size:11pt;font-style:normal;font-variant:normal;font-weight:400;text-decoration:none;vertical-align:baseline;white-space:pre-wrap">Заполнить в системе часы за отработанный период до начала отпуска;</span></strong></p>
-								  </li>
-								  <li style="font-size:11pt;font-family:Arial;color:#000000;background-color:transparent;font-weight:400;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre-wrap">
-									<p style="line-height:1.2;margin-top:0pt;margin-bottom:0pt"><strong style="font-weight:normal"><span style="background-color:transparent;color:#000000;font-family:arial;font-size:11pt;font-style:normal;font-variant:normal;font-weight:400;text-decoration:none;vertical-align:baseline;white-space:pre-wrap">Передать всю необходимую информацию по проекту другому разработчику, если компания предоставляет замену на проекте на период отпуска:</span></strong></p>
-								  </li>
-								</ol>
-								<ul style="margin-top:0pt;margin-bottom:0pt">
-								  <li style="font-size:11pt;font-family:Arial;color:#000000;background-color:transparent;font-weight:400;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre-wrap;margin-left:49.0394pt">
-									<p style="line-height:1.2;margin-top:0pt;margin-bottom:0pt"><strong style="font-weight:normal"><span style="background-color:transparent;color:#000000;font-family:arial;font-size:11pt;font-style:normal;font-variant:normal;font-weight:400;text-decoration:none;vertical-align:baseline;white-space:pre-wrap">текущее положение дел: что проработано с заказчиком, что необходимо выполнить, в какие сроки;</span></strong></p>
-								  </li>
-								  <li style="font-size:11pt;font-family:Arial;color:#000000;background-color:transparent;font-weight:400;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre-wrap;margin-left:49.0394pt">
-									<p style="line-height:1.2;margin-top:0pt;margin-bottom:0pt"><strong style="font-weight:normal"><span style="background-color:transparent;color:#000000;font-family:arial;font-size:11pt;font-style:normal;font-variant:normal;font-weight:400;text-decoration:none;vertical-align:baseline;white-space:pre-wrap">контактную информацию заказчика, особенности работы с ним, особенности коммуникации, о чем уже договаривались ранее;</span></strong></p>
-								  </li>
-								  <li style="font-size:11pt;font-family:Arial;color:#000000;background-color:transparent;font-weight:400;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre-wrap;margin-left:49.0394pt">
-									<p style="line-height:1.2;margin-top:0pt;margin-bottom:0pt"><strong style="font-weight:normal"><span style="background-color:transparent;color:#000000;font-family:arial;font-size:11pt;font-style:normal;font-variant:normal;font-weight:400;text-decoration:none;vertical-align:baseline;white-space:pre-wrap">предварительно оценочное состояние дел на время отпуска;</span></strong></p>
-								  </li>
-								</ul>
-								&nbsp;
-								<p style="line-height:1.2;margin-top:0pt;margin-bottom:0pt"><strong style="font-weight:normal"><strong style="background-color:transparent;color:#000000;font-family:arial;font-size:11pt;font-style:normal;font-variant:normal;font-weight:700;text-decoration:none;vertical-align:baseline;white-space:pre-wrap">Сотруднику, который находится на bench, необходимо:</strong></strong></p>
-								<ol style="margin-top:0pt;margin-bottom:0pt">
-								  <li style="font-size:11pt;font-family:Arial;color:#000000;background-color:transparent;font-weight:400;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre-wrap">
-									<p style="line-height:1.2;margin-top:0pt;margin-bottom:0pt"><strong style="font-weight:normal"><span style="background-color:transparent;color:#000000;font-family:arial;font-size:11pt;font-style:normal;font-variant:normal;font-weight:400;text-decoration:none;vertical-align:baseline;white-space:pre-wrap">Согласовать даты отпуска с Department Менеджером минимум за 2 недели до начала отпуска;</span></strong></p>
-								  </li>
-								  <li style="font-size:11pt;font-family:Arial;color:#000000;background-color:transparent;font-weight:400;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre-wrap">
-									<p style="line-height:1.2;margin-top:0pt;margin-bottom:0pt"><strong style="font-weight:normal"><span style="background-color:transparent;color:#000000;font-family:arial;font-size:11pt;font-style:normal;font-variant:normal;font-weight:400;text-decoration:none;vertical-align:baseline;white-space:pre-wrap">Создать в Vacation заявку, которую апрувит Department Менеджер в сроки, оговоренные индивидуально. </span><span style="color:#000000;font-family:arial;font-size:11pt;font-style:normal;font-variant:normal;font-weight:400;text-decoration:none;vertical-align:baseline;white-space:pre-wrap">Следует иметь в виду, что в некоторых случаях заявка может быть отклонена (топ-менеджментом, менеджерами проектов или клиентами).</span></strong></p>
-								  </li>
-								  <li style="font-size:11pt;font-family:Arial;color:#000000;background-color:transparent;font-weight:400;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre-wrap">
-									<p style="line-height:1.2;margin-top:0pt;margin-bottom:0pt"><strong style="font-weight:normal"><span style="background-color:transparent;color:#000000;font-family:arial;font-size:11pt;font-style:normal;font-variant:normal;font-weight:400;text-decoration:none;vertical-align:baseline;white-space:pre-wrap">Заполнить в системе часы за отработанный период до начала отпуска;</span></strong></p>
-								  </li>
-								  <li style="font-size:11pt;font-family:Arial;color:#000000;background-color:transparent;font-weight:400;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre-wrap">
-									<p style="line-height:1.2;margin-top:0pt;margin-bottom:0pt"><strong style="font-weight:normal"><span style="background-color:transparent;color:#000000;font-family:arial;font-size:11pt;font-style:normal;font-variant:normal;font-weight:400;text-decoration:none;vertical-align:baseline;white-space:pre-wrap">Предоставить контактные данные, по которым с ним можно будет связаться в экстренной ситуации в период отпуска.</span></strong></p>
-								  </li>
-								</ol>
-								&nbsp;
-								<p style="line-height:1.2;margin-top:0pt;margin-bottom:0pt;"><strong style="font-weight:normal"><strong style="background-color:transparent;color:#000000;font-family:arial;font-size:11pt;font-style:normal;font-variant:normal;font-weight:700;text-decoration:none;vertical-align:baseline;white-space:pre-wrap">Компенсация неиспользованных дней отпуска при увольнении</strong></strong></p>
-								<p style="line-height:1.2;margin-top:0pt;margin-bottom:0pt;"><strong style="font-weight:normal"><span style="background-color:transparent;color:#000000;font-family:arial;font-size:11pt;font-style:normal;font-variant:normal;font-weight:400;text-decoration:none;vertical-align:baseline;white-space:pre-wrap">При увольнении сотрудника по собственному желанию компенсируется только 5 дней отпуска, даже если их насчитывается больше. Если их меньше - тогда по количеству, которое осталось (1,2,3,4 дня).</span></strong></p>
-								&nbsp;
-								<p style="line-height:1.2;margin-top:0pt;margin-bottom:0pt;text-align:center"><strong style="font-weight:normal"><strong style="background-color:transparent;color:#000000;font-family:arial;font-size:11pt;font-style:normal;font-variant:normal;font-weight:700;text-decoration:none;vertical-align:baseline;white-space:pre-wrap">2. СТАТУС Day-Off</strong></strong></p>
-								&nbsp;
-								<p style="line-height:1.2;margin-top:0pt;margin-bottom:0pt"><strong style="font-weight:normal"><span style="background-color:transparent;color:#000000;font-family:arial;font-size:11pt;font-style:normal;font-variant:normal;font-weight:400;text-decoration:none;vertical-align:baseline;white-space:pre-wrap">Доступно </span><strong style="background-color:transparent;color:#000000;font-family:arial;font-size:11pt;font-style:normal;font-variant:normal;font-weight:700;text-decoration:none;vertical-align:baseline;white-space:pre-wrap">5 Days-Off</strong><span style="background-color:transparent;color:#000000;font-family:arial;font-size:11pt;font-style:normal;font-variant:normal;font-weight:400;text-decoration:none;vertical-align:baseline;white-space:pre-wrap"> в год - по причине только экстренных и непредвиденных ситуаций. Эти дни не переносятся и сгорают к концу года. К тому же, в особых случаях предусмотрено ещё +2 дополнительных оплачиваемых Days-Off, а именно:</span></strong></p>
-								&nbsp;
-								<p style="line-height:1.2;margin-top:0pt;margin-bottom:0pt"><strong style="font-weight:normal"><strong style="background-color:transparent;color:#000000;font-family:arial;font-size:11pt;font-style:normal;font-variant:normal;font-weight:700;text-decoration:none;vertical-align:baseline;white-space:pre-wrap">1. Свадьба сотрудника:</strong><span style="background-color:transparent;color:#000000;font-family:arial;font-size:11pt;font-style:normal;font-variant:normal;font-weight:400;text-decoration:none;vertical-align:baseline;white-space:pre-wrap"> даётся 2 дополнительных Days-Off, которые будут действовать в промежутке за 4 недели до и 4 недели после даты свадьбы (при условии согласования с PM-ом и DМ-ом).</span></strong></p>
-								<p style="line-height:1.2;margin-top:0pt;margin-bottom:0pt"><strong style="font-weight:normal"><span style="background-color:transparent;color:#000000;font-family:arial;font-size:11pt;font-style:normal;font-variant:normal;font-weight:400;text-decoration:none;vertical-align:baseline;white-space:pre-wrap">Например, если свадьба состоится 17 сентября 2018 года, то можно будет использовать эти 2 дополнительных Days-Off в промежутке с 20 августа по 15 октября.</span></strong></p>
-								&nbsp;
-								<p style="line-height:1.2;margin-top:0pt;margin-bottom:0pt"><strong style="font-weight:normal"><strong style="background-color:transparent;color:#000000;font-family:arial;font-size:11pt;font-style:normal;font-variant:normal;font-weight:700;text-decoration:none;vertical-align:baseline;white-space:pre-wrap">2. Рождение ребёнка:</strong><span style="background-color:transparent;color:#000000;font-family:arial;font-size:11pt;font-style:normal;font-variant:normal;font-weight:400;text-decoration:none;vertical-align:baseline;white-space:pre-wrap"> сотрудникам даётся 2 дополнительных Days-Off, которые будут действовать в течение одного месяца после даты рождения ребёнка (при условии согласования с PM-ом и DМ-ом).</span></strong></p>
-								&nbsp;
-								<p style="line-height:1.2;margin-top:0pt;margin-bottom:0pt"><strong style="font-weight:normal"><span style="background-color:transparent;color:#000000;font-family:arial;font-size:11pt;font-style:normal;font-variant:normal;font-weight:400;text-decoration:none;vertical-align:baseline;white-space:pre-wrap">Дополнительные Days-Off даются и используются только в случаях свадьбы сотрудника и рождения ребёнка.</span></strong></p>
-								&nbsp;
-								<p style="line-height:1.2;margin-top:0pt;margin-bottom:0pt"><strong style="font-weight:normal"><span style="background-color:transparent;color:#000000;font-family:arial;font-size:11pt;font-style:normal;font-variant:normal;font-weight:400;text-decoration:none;vertical-align:baseline;white-space:pre-wrap">Чтобы утвердить данный статус, необходимо уведомить своего PM-а и DМ-а и создать в Vacation заявку, которую апрувит Department Менеджер.</span></strong></p>
-								&nbsp;
-								<p style="line-height:1.38;margin-top:0pt;margin-bottom:0pt"><strong style="font-weight:normal"><strong style="background-color:transparent;color:#000000;font-family:arial;font-size:11pt;font-style:normal;font-variant:normal;font-weight:700;text-decoration:none;vertical-align:baseline;white-space:pre-wrap">Заявка на Day-Off</strong></strong></p>
-								<ul style="margin-top:0pt;margin-bottom:0pt">
-								  <li style="font-size:11pt;font-family:Arial;color:#000000;background-color:transparent;font-weight:400;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre-wrap">
-									<p style="line-height:1.2;margin-top:0pt;margin-bottom:0pt"><strong style="font-weight:normal"><span style="background-color:transparent;color:#000000;font-family:arial;font-size:11pt;font-style:normal;font-variant:normal;font-weight:400;text-decoration:none;vertical-align:baseline;white-space:pre-wrap">во вкладке “Days-Оff” нажать кнопку “Start date” и выбрать начальную дату,</span></strong></p>
-								  </li>
-								  <li style="font-size:11pt;font-family:Arial;color:#000000;background-color:transparent;font-weight:400;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre-wrap">
-									<p style="line-height:1.2;margin-top:0pt;margin-bottom:0pt"><strong style="font-weight:normal"><span style="background-color:transparent;color:#000000;font-family:arial;font-size:11pt;font-style:normal;font-variant:normal;font-weight:400;text-decoration:none;vertical-align:baseline;white-space:pre-wrap">нажать кнопку “End date” и выбрать конечную дату,</span></strong></p>
-								  </li>
-								  <li style="font-size:11pt;font-family:Arial;color:#000000;background-color:transparent;font-weight:400;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre-wrap">
-									<p style="line-height:1.2;margin-top:0pt;margin-bottom:0pt"><strong style="font-weight:normal"><span style="background-color:transparent;color:#000000;font-family:arial;font-size:11pt;font-style:normal;font-variant:normal;font-weight:400;text-decoration:none;vertical-align:baseline;white-space:pre-wrap">нажать кнопку “Send”.</span></strong></p>
-								  </li>
-								</ul>
-								&nbsp;
-								<p style="line-height:1.2;margin-top:0pt;margin-bottom:0pt"><strong style="font-weight:normal"><span style="background-color:transparent;color:#000000;font-family:arial;font-size:11pt;font-style:normal;font-variant:normal;font-weight:400;text-decoration:none;vertical-align:baseline;white-space:pre-wrap">Количество выбранных дней будет отображено в поле “Days-Оff”.</span></strong></p>
-								<p style="line-height:1.2;margin-top:0pt;margin-bottom:0pt"><strong style="font-weight:normal"><span style="background-color:transparent;color:#000000;font-family:arial;font-size:11pt;font-style:normal;font-variant:normal;font-weight:400;text-decoration:none;vertical-align:baseline;white-space:pre-wrap">Количество дней Day-Off, доступных на выбранную дату, появится в поле “Available days”. Запрашиваемое количество дней не должно превышать количество доступных дней. Также не допускается брать Day-Off, пересекающийся с другим взятым отпуском или Day-Оff.</span></strong></p>
-								&nbsp;
-								<p style="line-height:1.38;margin-top:0pt;margin-bottom:0pt"><strong style="font-weight:normal"><strong style="background-color:transparent;color:#000000;font-family:arial;font-size:11pt;font-style:normal;font-variant:normal;font-weight:700;text-decoration:none;vertical-align:baseline;white-space:pre-wrap">Просмотр заявок на Day-Оff</strong></strong></p>
-								<p style="line-height:1.2;margin-top:0pt;margin-bottom:0pt"><strong style="font-weight:normal"><span style="background-color:transparent;color:#000000;font-family:arial;font-size:11pt;font-style:normal;font-variant:normal;font-weight:400;text-decoration:none;vertical-align:baseline;white-space:pre-wrap">Все запрошенные Days-Off автоматически отсортированы по вкладкам:</span></strong></p>
-								<ul style="margin-top:0pt;margin-bottom:0pt">
-								  <li style="font-size:11pt;font-family:Arial;color:#000000;background-color:transparent;font-weight:400;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre-wrap">
-									<p style="line-height:1.2;margin-top:0pt;margin-bottom:0pt"><strong style="font-weight:normal"><span style="background-color:transparent;color:#000000;font-family:arial;font-size:11pt;font-style:normal;font-variant:normal;font-weight:400;text-decoration:none;vertical-align:baseline;white-space:pre-wrap">Day-Оff requests – будут показаны заявки на отпуска, еще не обработанные менеджером;</span></strong></p>
-								  </li>
-								  <li style="font-size:11pt;font-family:Arial;color:#000000;background-color:transparent;font-weight:400;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre-wrap">
-									<p style="line-height:1.2;margin-top:0pt;margin-bottom:0pt"><strong style="font-weight:normal"><span style="background-color:transparent;color:#000000;font-family:arial;font-size:11pt;font-style:normal;font-variant:normal;font-weight:400;text-decoration:none;vertical-align:baseline;white-space:pre-wrap">Rejected Day-Оff – заявки на отпуска, отклоненные менеджером;</span></strong></p>
-								  </li>
-								  <li style="font-size:11pt;font-family:Arial;color:#000000;background-color:transparent;font-weight:400;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre-wrap">
-									<p style="line-height:1.2;margin-top:0pt;margin-bottom:0pt"><strong style="font-weight:normal"><span style="background-color:transparent;color:#000000;font-family:arial;font-size:11pt;font-style:normal;font-variant:normal;font-weight:400;text-decoration:none;vertical-align:baseline;white-space:pre-wrap">Approved Day-Оff – заявки на отпуск, уже подтвержденные менеджером, но начальная дата которых ещё не наступила;</span></strong></p>
-								  </li>
-								  <li style="font-size:11pt;font-family:Arial;color:#000000;background-color:transparent;font-weight:400;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre-wrap">
-									<p style="line-height:1.2;margin-top:0pt;margin-bottom:0pt"><strong style="font-weight:normal"><span style="background-color:transparent;color:#000000;font-family:arial;font-size:11pt;font-style:normal;font-variant:normal;font-weight:400;text-decoration:none;vertical-align:baseline;white-space:pre-wrap">Spent Day-Оff – показываются подтвержденные менеджером заявки на отпуск, конечная дата которых уже прошла.</span></strong></p>
-								  </li>
-								</ul>
-								&nbsp;
-								<p style="line-height:1.2;margin-top:0pt;margin-bottom:0pt;text-align:center"><strong style="font-weight:normal"><strong style="background-color:transparent;color:#000000;font-family:arial;font-size:11pt;font-style:normal;font-variant:normal;font-weight:700;text-decoration:none;vertical-align:baseline;white-space:pre-wrap">3. ПОРЯДОК ОФОРМЛЕНИЯ СВОЕГО ОТСУТСТВИЯ В ОФИСЕ ВО ВРЕМЯ ГОСУДАРСТВЕННЫХ ПРАЗДНИКОВ</strong></strong></p>
-								&nbsp;
-								<p style="line-height:1.2;margin-top:0pt;margin-bottom:0pt"><strong style="font-weight:normal"><span style="background-color:transparent;color:#000000;font-family:arial;font-size:11pt;font-style:normal;font-variant:normal;font-weight:400;text-decoration:none;vertical-align:baseline;white-space:pre-wrap">Дополнение по поводу государственных праздников, которые примыкают с разрывом в 1 день к календарным выходным. Days-Оff на дни, которые отделяют такие праздники от выходных, апрувиться не будут. Day-Оff - это экстраординарное внезапное событие, которое потребовало Вашего неожиданного отсутствия на работе. Если Вы всё же планируете мини-отпуск из 4 дней, то для этого лучше всего подойдёт именно статус Vacation. Разница тут принципиальна - хотя бы потому, что некоторые (но не все) из наших клиентов отпуска оплачивают, а Days-Оff - нет.</span></strong></p>
-								<p style="line-height:1.2;margin-top:0pt;margin-bottom:0pt">&nbsp;</p>
-								<p style="line-height:1.2;margin-top:0pt;margin-bottom:0pt"><strong style="font-weight:normal"><strong style="background-color:transparent;color:#000000;font-family:arial;font-size:11pt;font-style:normal;font-variant:normal;font-weight:700;text-decoration:none;vertical-align:baseline;white-space:pre-wrap">Порядок оформления своего отсутствия в офисе в данном случае будет следующий:</strong></strong></p>
-								<p style="line-height:1.2;margin-top:0pt;margin-bottom:0pt"><strong style="font-weight:normal"><span style="background-color:transparent;color:#000000;font-family:arial;font-size:11pt;font-style:normal;font-variant:normal;font-weight:400;text-decoration:none;vertical-align:baseline;white-space:pre-wrap">Вы согласовываете этот вопрос с Вашим менеджером и с человеком, который ответственен за аккаунт, на котором Вы работаете (не с клиентом). Если эти люди решили, что ситуация на аккаунте допускает Ваше отсутствие, то только тогда ответственный за аккаунт человек договаривается об этом с клиентом. После этого Вы получаете 1 день из своих отпускных дней на запрашиваемый день.</span></strong></p>
-								&nbsp;
-								<p style="line-height:1.2;margin-top:0pt;margin-bottom:0pt;text-align:center"><strong style="font-weight:normal"><strong style="background-color:transparent;color:#000000;font-family:arial;font-size:11pt;font-style:normal;font-variant:normal;font-weight:700;text-decoration:none;vertical-align:baseline;white-space:pre-wrap">4. СТАТУС Work From Home</strong></strong></p>
-								&nbsp;
-								<p style="line-height:1.2;margin-top:0pt;margin-bottom:0pt"><strong style="font-weight:normal"><span style="background-color:transparent;color:#000000;font-family:arial;font-size:11pt;font-style:normal;font-variant:normal;font-weight:400;text-decoration:none;vertical-align:baseline;white-space:pre-wrap">Статус WFH берется по уважительной причине и запрашивается по необходимости. </span><span style="color:#000000;font-family:arial;font-size:11pt;font-style:normal;font-variant:normal;font-weight:400;text-decoration:none;vertical-align:baseline;white-space:pre-wrap">Количество дней работы из дома согласовывается с </span><span style="background-color:transparent;color:#000000;font-family:arial;font-size:11pt;font-style:normal;font-variant:normal;font-weight:400;text-decoration:none;vertical-align:baseline;white-space:pre-wrap">Department</span><span style="color:#000000;font-family:arial;font-size:11pt;font-style:normal;font-variant:normal;font-weight:400;text-decoration:none;vertical-align:baseline;white-space:pre-wrap"> менеджером</span><span style="background-color:transparent;color:#000000;font-family:arial;font-size:11pt;font-style:normal;font-variant:normal;font-weight:400;text-decoration:none;vertical-align:baseline;white-space:pre-wrap">. </span><span style="color:#000000;font-family:arial;font-size:11pt;font-style:normal;font-variant:normal;font-weight:400;text-decoration:none;vertical-align:baseline;white-space:pre-wrap">За 1 раз можно оформить не более 5 дней </span><span style="background-color:transparent;color:#000000;font-family:arial;font-size:11pt;font-style:normal;font-variant:normal;font-weight:400;text-decoration:none;vertical-align:baseline;white-space:pre-wrap">WFH</span><span style="color:#000000;font-family:arial;font-size:11pt;font-style:normal;font-variant:normal;font-weight:400;text-decoration:none;vertical-align:baseline;white-space:pre-wrap"> подряд. Эти дни не переносятся и сгорают к концу года. Чтобы утвердить данный статус, </span><span style="background-color:transparent;color:#000000;font-family:arial;font-size:11pt;font-style:normal;font-variant:normal;font-weight:400;text-decoration:none;vertical-align:baseline;white-space:pre-wrap">необходимо уведомить своего PM-а и DМ-а и создать в Vacation заявку, которую апрувит Department Менеджер.</span></strong></p>
-								&nbsp;
-								<p style="line-height:1.2;margin-top:0pt;margin-bottom:0pt;text-align:center"><strong style="font-weight:normal"><strong style="background-color:transparent;color:#000000;font-family:arial;font-size:11pt;font-style:normal;font-variant:normal;font-weight:700;text-decoration:none;vertical-align:baseline;white-space:pre-wrap">5. Unpaid Leave Request (Days off at own expense)</strong></strong></p>
-								<br><strong style="font-weight:normal"><span style="background-color:transparent;color:#000000;font-family:arial;font-size:11pt;font-style:normal;font-variant:normal;font-weight:400;text-decoration:none;vertical-align:baseline;white-space:pre-wrap">В случае отпуска за свой счёт необходимо за 1 месяц заранее уведомить своего PM-а и DМ-а, а также написать письмо на PM-а, DМ-а и Finance department (</span><a style="text-decoration:none" href="mailto:finance_department@chisw.com" rel=" noopener noreferrer" target="_blank"><u style="background-color:transparent;color:#1155cc;font-family:arial;font-size:11pt;font-style:normal;font-variant:normal;font-weight:400;text-decoration:underline;vertical-align:baseline;white-space:pre-wrap">finance_department@chisw.com</u></a><span style="background-color:transparent;color:#000000;font-family:arial;font-size:11pt;font-style:normal;font-variant:normal;font-weight:400;text-decoration:none;vertical-align:baseline;white-space:pre-wrap">) с указанием предполагаемых дат. Также во вкладке Unpaid Leave Request в Vacation нужно создать заявку, которую апрувит Department Менеджер. </span><span style="color:#000000;font-family:arial;font-size:11pt;font-style:normal;font-variant:normal;font-weight:400;text-decoration:none;vertical-align:baseline;white-space:pre-wrap">Следует иметь в виду, что в некоторых случаях заявка может быть отклонена (топ-менеджментом, менеджерами проектов или клиентами).</span></strong>
-							  </div>
+							<section>
+								<header class="text-center">
+									<h1>Система Vacation</h1>
+									<h2>Описание статусов и инструкция для сотрудников CHI Software</h2>
+								</header>
+
+								<article>
+									<p>
+										Зарегистрироваться в системе самостоятельно невозможно, всех
+										пользователей создает администратор. Каждый сотрудник получает свой
+										логин и пароль от администратора системы – Юлии Рассохи.
+									</p>
+									<p>
+										После входа в систему тебе будет доступно создание запросов на
+										<strong>Vacation</strong>, <strong>Day-Оff</strong>,
+										<strong>WFH</strong> и <strong>Unpaid Leave</strong>, а также
+										просмотр статистики данных статусов. После создания запроса
+										автоматически через e-mail будет отправлено уведомление на
+										<a href="mailto:hr@chisw.com">hr@chisw.com</a>,
+										<a href="mailto:management@chisw.com">management@chisw.com</a> и
+										<a href="mailto:finance_department@chisw.com">finance_department@chisw.com</a>. Head of Department
+										(HD) или Department Assistant (DA) подтверждают запрос в
+										системе, а уведомление о подтверждении запроса ты получишь на почту.
+									</p>
+									<h4><strong>Расчет количества доступных дней</strong></h4>
+									<p>
+										По умолчанию во вкладке каждого статуса отображается количество
+										дней, доступных тебе на текущую дату. Чтобы посмотреть, сколько дней
+										доступно в интересующее тебя время, выбери дату во вкладке нужного
+										тебе статуса в полях “Start date” и “End date”. Система
+										автоматически вычислит, сколько дней накопится к этому времени.
+									</p>
+								</article>
+							</section>
+
+							<div class="container manual-panel-container">
+								<div class="panel-group" id="accordion">
+									<div class="panel panel-default">
+										<div class="panel-heading">
+											<h4 class="panel-title">
+												<a data-toggle="collapse" data-parent="#accordion" href="#collapse1">1. Статус Vacation</a>
+											</h4>
+										</div>
+										<div id="collapse1" class="panel-collapse collapse">
+											<div class="panel-body">
+												<section>
+													<article>
+														<h4><strong>Правила оформления отпуска</strong></h4>
+														<ul>
+															<li>
+																Ты можешь оформить 20 дней отпуска в год. Дни
+																начисляются с момента выхода на работу и накапливаются в
+																течение 12 месяцев после даты выхода.
+															</li>
+															<li>
+																Ты можешь уйти в отпуск не чаще чем один раз в 3 месяца.
+															</li>
+															<li>
+																Ты можешь оформить не более 10 дней отпуска за один
+																отпускной период.
+															</li>
+															<li>
+																Ты можешь использовать накопленные дни отпуска в течение
+																одного года (с даты первого рабочего дня) плюс 1 месяц.
+																По истечении 13 месяцев (один год + один месяц)
+																неиспользованные дни отпуска сгорают.
+															</li>
+															<li>
+																Ты можешь переносить оставшиеся неиспользованные дни при
+																условии подтверждения от Head of Department/Department Assistant. На следующий
+																год можно переносить только дни текущего года. При этом
+																перенесенные дни нужно будет использовать в течение 12
+																месяцев. По завершении 12 они сгорают и повторно не
+																переносятся.
+															</li>
+															<li>
+																Исходя из описанного выше, все перенесенные и
+																подтвержденные менеджером (HD/DA) отпускные дни нужно
+																использовать в течение 2 (двух) лет.
+															</li>
+														</ul>
+														<p>
+															Следует иметь в виду, что в некоторых случаях заявка может
+															быть отклонена (топ-менеджментом, менеджерами проектов или
+															клиентами).
+														</p>
+													</article>
+
+													<article>
+														<h4><strong>Создание заявки на отпуск</strong></h4>
+														<ul>
+															<li>
+																Выбери вкладку “Vacation”. Количество запрашиваемых на
+																отпуск дней отображается в поле “Vacation days”.
+																Количество дней отпуска, доступных на выбранную дату,
+																отображается в поле “Available days”.
+															</li>
+															<li>
+																Нажми на иконку календаря в поле “Start date” и выбери
+																начальную дату отпуска.
+															</li>
+															<li>
+																Нажми на иконку календаря в поле “End date” и выбери
+																конечную дату отпуска. Запрашиваемое количество дней
+																отпуска не должно превышать количество доступных дней.
+																Также нельзя брать отпуск, пересекающийся с другим
+																взятым отпуском или Day-Оff.
+															</li>
+															<li>
+																Нажми кнопку “Send”. Твой запрос отправлен в обработку.
+															</li>
+															<li>
+																Ты можешь удалить свой отправленный запрос до момента
+																его апрува менеджером, нажав кнопку “Del” в Vacation
+																requests.
+															</li>
+														</ul>
+													</article>
+
+													<article>
+														<h4><strong>Просмотр заявок на отпуск</strong></h4>
+														<p>
+															Все запрошенные дни отпуска автоматически сортируются в
+															зависимости от даты и статуса их запроса по вкладкам:
+														</p>
+														<ul>
+															<li>
+																Vacation requests – здесь ты можешь посмотреть заявки на отпуск, еще не обработанные
+																твоим HD/DA.
+															</li>
+															<li>
+																Rejected vacations – здесь ты можешь посмотреть заявки на отпуск, которые были отклонены
+																твоим HD/DA.
+															</li>
+															<li>
+																Approved vacations – здесь ты можешь посмотреть подтвержденные твоим HD/DA заявки на
+																будущий отпуск.
+															</li>
+															<li>
+																Spent vacations – здесь ты можешь посмотреть подтвержденные HD/DA заявки на прошедший
+																отпуск.
+															</li>
+														</ul>
+													</article>
+
+													<article>
+														<h4>
+															<strong>Сотруднику, работающему на outsource-проектах,
+																необходимо:</strong>
+														</h4>
+														<ul>
+															<li>
+																Согласовать даты отпуска с Project Manager или Sales
+																Manager минимум за 1 месяц.
+															</li>
+															<li>
+																Предоставить контактные данные, по которым с тобой можно
+																будет связаться в экстренной ситуации в период отпуска.
+															</li>
+															<li>
+																После подтверждения клиентом дат отпуска озвучить эти даты Head of Department/Department
+																Assistant (если это не то же лицо, что и менеджер проекта).
+															</li>
+															<li>
+																Создать заявку в <a href="http://vacation.chisw.us/">Vacation</a>, которую аппрувит Head
+																of Department/Department Assistant не позднее чем за 1 месяц до начала отпуска.
+															</li>
+															<li>
+																Заполнить в системе часы за отработанный период до
+																начала отпуска.
+															</li>
+															<li>
+																Передать всю необходимую информацию по проекту коллеге,
+																если компания предоставляет замену на проекте на период
+																отпуска:
+																<ul>
+																	<li>
+																		Текущее положение дел, что проработано с заказчиком,
+																		что необходимо выполнить, в какие сроки.
+																	</li>
+																	<li>
+																		Контактную информацию заказчика, особенности работы
+																		с ним, особенности коммуникации, о чем уже
+																		договаривались ранее.
+																	</li>
+																	<li>
+																		Предварительно оценочное состояние дел на время
+																		отпуска.
+																	</li>
+																</ul>
+															</li>
+														</ul>
+														<p>
+															Следует иметь в виду, что в некоторых случаях заявка может
+															быть отклонена (топ-менеджментом, менеджерами проектов или
+															клиентами).
+														</p>
+													</article>
+
+													<article>
+														<h4>
+															<strong>Сотруднику, работающему на outstaff-проектах,
+																необходимо:</strong>
+														</h4>
+														<ul>
+															<li>
+																Согласовать даты отпуска с Sales Manager/Outstaff
+																Manager минимум за 1 месяц до начала отпуска.
+															</li>
+															<li>
+																Уведомить/согласовать даты отпуска с менеджером со
+																стороны клиента минимум за 1 месяц до начала отпуска
+																(уточнить у Outstaff Manager).
+															</li>
+															<li>
+																Предоставить контактные данные, по которым с тобой можно
+																будет связаться в экстренной ситуации в период отпуска.
+															</li>
+															<li>
+																После подтверждения клиентом дат отпуска озвучить эти даты Head of Department/Department
+																Assistant.
+															</li>
+															<li>
+																Создать заявку в <a href="http://vacation.chisw.us/">Vacation</a>, которую аппрувит Head
+																of Department/Department Assistant в сроки, оговоренные индивидуально.
+															</li>
+															<li>
+																Заполнить в системе часы за отработанный период до
+																начала отпуска.
+															</li>
+															<li>
+																Передать всю необходимую информацию по проекту коллеге,
+																если компания предоставляет замену на проекте на период
+																отпуска:
+																<ul>
+																	<li>
+																		Текущее положение дел, что проработано с заказчиком,
+																		что необходимо выполнить, в какие сроки.
+																	</li>
+																	<li>
+																		Контактную информацию заказчика, особенности работы
+																		с ним, особенности коммуникации, о чем уже
+																		договаривались ранее.
+																	</li>
+																	<li>
+																		Предварительно оценочное состояние дел на время
+																		отпуска.
+																	</li>
+																</ul>
+															</li>
+														</ul>
+														<p>
+															Следует иметь в виду, что в некоторых случаях заявка может
+															быть отклонена (топ-менеджментом, менеджерами проектов или
+															клиентами).
+														</p>
+													</article>
+
+													<article>
+														<h4>
+															<strong>Сотруднику, который находится на bench,
+																необходимо:</strong>
+														</h4>
+														<ul>
+															<li>
+																Согласовать даты отпуска с Head of Department/Department Assistant минимум за 2 недели
+																до начала отпуска.
+															</li>
+															<li>
+																Создать заявку в
+																<a href="http://vacation.chisw.us/">Vacation</a>,
+																которую аппрувит Head of Department/Department Assistant в сроки, оговоренные
+																индивидуально.
+															</li>
+															<li>
+																Заполнить в системе часы за отработанный период до
+																начала отпуска.
+															</li>
+															<li>
+																Предоставить контактные данные, по которым с тобой можно будет связаться в экстренной
+																ситуации в период отпуска.
+															</li>
+														</ul>
+													</article>
+
+													<article>
+														<h4>
+															<strong>Компенсация неиспользованных дней отпуска при
+																увольнении</strong>
+														</h4>
+														<p>
+															При увольнении сотруднику компенсируется пять дней
+															отпуска, даже если их осталось больше. Если их меньше – по
+															количеству, которое осталось (1,2,3,4 дня). Если сотрудник
+															не перенес оставшиеся неиспользованные дни отпуска с
+															прошлого года заранее, эти дни не покрываются компанией.
+														</p>
+													</article>
+												</section>
+											</div>
+										</div>
+									</div>
+
+									<div class="panel panel-default">
+										<div class="panel-heading">
+											<h4 class="panel-title">
+												<a data-toggle="collapse" data-parent="#accordion" href="#collapse2">2. Статус Day-Off</a>
+											</h4>
+										</div>
+										<div id="collapse2" class="panel-collapse collapse">
+											<div class="panel-body">
+												<section>
+													<article>
+														<ul>
+															<li>
+																Ты можешь взять не более пяти Days-off в год по причине
+																только экстренных ситуаций.
+															</li>
+															<li>
+																Чтобы утвердить этот статус, тебе необходимо уведомить своего Project Manager и Head of
+																Department/Department Assistant и создать в <a
+																	href="http://vacation.chisw.us/">Vacation</a> заявку, которую апрувит HD/DA.
+															</li>
+															<li>Эти дни не переносятся и сгорают к концу года.</li>
+														</ul>
+														<p>
+															В особых случаях ты можешь оформить еще 2 дополнительных
+															оплачиваемых Days-off, а именно:
+														</p>
+														<ul>
+															<li>
+																Твоя свадьба: 2 дополнительных Days-off, которые будут действовать в промежутке за 4
+																недели до и 4 недели после даты свадьбы (при условии согласования с PM и HD/DA).
+																Например, если свадьба состоится 17 сентября 2019 года, ты можешь использовать эти 2
+																дополнительных Days-off в промежутке с 20 августа по 15 октября.
+															</li>
+															<li>
+																Рождение твоего ребенка: 2 дополнительных Days-off, которые будут действовать в течение
+																одного месяца после даты рождения ребенка (при условии согласования с PM и HD/DA).
+															</li>
+														</ul>
+													</article>
+
+													<article>
+														<h4><strong>Создание заявки на Day-Off</strong></h4>
+														<ul>
+															<li>
+																Выбери вкладку “Days-Оff”. Количество запрашиваемых дней
+																отображается в поле “Days-Оff”. Количество дней Day-Off,
+																доступных на выбранную дату, отображается в поле
+																“Available days”.
+															</li>
+															<li>
+																Нажми на иконку календаря в поле “Start date” и выбери
+																начальную дату.
+															</li>
+															<li>
+																Нажми на иконку календаря в поле “End date” и выбери
+																конечную дату. Запрашиваемое количество дней не должно
+																превышать количество доступных дней. Также нельзя брать
+																Day-Off, пересекающийся с другим взятым отпуском или
+																Day-Оff.
+															</li>
+															<li>
+																Нажми кнопку “Send”. Твой запрос отправлен в обработку.
+															</li>
+															<li>
+																Ты можешь удалить свой отправленный запрос до момента
+																его апрува менеджером, нажав кнопку “Del” в Day-Оff
+																requests.
+															</li>
+														</ul>
+													</article>
+
+													<article>
+														<h4><strong>Просмотр заявок на Day-Оff</strong></h4>
+														<p>
+															Все запрошенные Days-Off автоматически отсортированы по
+															вкладкам:
+														</p>
+														<ul>
+															<li>
+																Day-Оff requests – здесь ты можешь посмотреть заявки на Day-Оff, еще не обработанные
+																твоим HD/DA.
+															</li>
+															<li>
+																Rejected Day-Оff – здесь ты можешь посмотреть заявки на Day-Оff, которые были отклонены
+																твоим HD/DA.
+															</li>
+															<li>
+																Approved Day-Оff – здесь ты можешь посмотреть подтвержденные твоим HD/DA заявки на
+																будущие Day-Оff.
+															</li>
+															<li>
+																Spent Day-Оff – здесь ты можешь посмотреть подтвержденные HD/DA заявки на прошедшие
+																Day-Оff.
+															</li>
+														</ul>
+													</article>
+												</section>
+											</div>
+										</div>
+									</div>
+
+									<div class="panel panel-default">
+										<div class="panel-heading">
+											<h4 class="panel-title">
+												<a data-toggle="collapse" data-parent="#accordion" href="#collapse3">3. Порядок оформления
+													своего отсутствия в офисе во время
+													государственных праздников</a>
+											</h4>
+										</div>
+										<div id="collapse3" class="panel-collapse collapse">
+											<div class="panel-body">
+												<section>
+													<article>
+														<p>
+															Дополнение по поводу государственных праздников, которые
+															примыкают с разрывом в 1 день к календарным выходным:
+														</p>
+														<ul>
+															<li>
+																Ты не можешь оформить Days-off на дни, которые отделяют
+																такие праздники от выходных.
+															</li>
+															<li>
+																Day-off – экстраординарное внезапное событие, которое
+																потребовало твоего неожиданного отсутствия на работе.
+															</li>
+															<li>
+																Если ты все же планируешь мини-отпуск из четырех дней,
+																для этого лучше всего подойдет статус Vacation.
+															</li>
+														</ul>
+													</article>
+
+													<article>
+														<h4>
+															<strong>Разница тут принципиальна хотя бы потому, что некоторые
+																(но не все) из наших клиентов отпуска оплачивают, а
+																Days-off – нет.</strong>
+														</h4>
+														<p>
+															Порядок оформления своего отсутствия в офисе в данном
+															случае будет следующий:
+														</p>
+														<ol>
+															<li>
+																Ты согласовываешь этот вопрос со своим менеджером и с
+																человеком, который ответственен за аккаунт, на котором
+																ты работаешь (не с клиентом).
+															</li>
+															<li>
+																Если эти люди решили, что ситуация на аккаунте допускает
+																твое отсутствие, только тогда ответственный за аккаунт
+																человек договаривается об этом с клиентом.
+															</li>
+															<li>
+																После этого ты получаешь 1 день из своих отпускных дней
+																на запрашиваемый день.
+															</li>
+														</ol>
+													</article>
+												</section>
+											</div>
+										</div>
+									</div>
+
+									<div class="panel panel-default">
+										<div class="panel-heading">
+											<h4 class="panel-title">
+												<a data-toggle="collapse" data-parent="#accordion" href="#collapse4">4. Статус WFH</a>
+											</h4>
+										</div>
+										<div id="collapse4" class="panel-collapse collapse">
+											<div class="panel-body">
+												<section>
+													<article>
+														<ul>
+															<li>
+																Ты можешь оформить статус WFH по уважительной причине.
+															</li>
+															<li>
+																Количество дней работы из дома тебе необходимо согласовать с Head of
+																Department/Department Assistant.
+															</li>
+															<li>
+																После согласования количества дней WFH тебе необходимо уведомить Project Manager о
+																данном статусе и создать заявку в <a href="http://vacation.chisw.us/">Vacation</a>,
+																которую апрувит HD/DA.
+															</li>
+															<li>
+																За 1 раз ты можешь оформить не более пяти дней WFH
+																подряд.
+															</li>
+															<li>Эти дни не переносятся и сгорают к концу года.</li>
+														</ul>
+														<p>
+															Создание и просмотр заявок на статус WFH аналогично
+															предыдущим статусам в системе Vacation.
+														</p>
+													</article>
+												</section>
+											</div>
+										</div>
+									</div>
+
+									<div class="panel panel-default">
+										<div class="panel-heading">
+											<h4 class="panel-title">
+												<a data-toggle="collapse" data-parent="#accordion" href="#collapse5">5. Статус Unpaid Leave</a>
+											</h4>
+										</div>
+										<div id="collapse5" class="panel-collapse collapse">
+											<div class="panel-body">
+												<section>
+													<article>
+														<ul>
+															<li>
+																В случае отпуска за свой счет тебе необходимо заранее (не позже чем за 1 месяц)
+																уведомить своего Project Manager и Head of Department/Department Assistant, а также
+																написать письмо на PM, HD/DA и finance department
+																(<a href="mailto:finance_department@chisw.com">finance_department@chisw.com</a>) с
+																указанием предполагаемых дат.
+															</li>
+															<li>
+																Также во вкладке Unpaid leave request в
+																<a href="http://vacation.chisw.us/">Vacation</a> тебе
+																нужно создать заявку, которую аппрувит HD/DA.
+															</li>
+														</ul>
+														<p>
+															Следует иметь в виду, что в некоторых случаях заявка может
+															быть отклонена (топ-менеджментом, менеджерами проектов или
+															клиентами).
+														</p>
+														<p>
+															Создание и просмотр заявок на статус Unpaid leave
+															аналогично предыдущим статусам в системе Vacation.
+														</p>
+													</article>
+												</section>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
 						</div>
 					</uib-accordion-group>
 				</uib-accordion>
