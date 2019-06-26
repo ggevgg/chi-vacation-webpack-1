@@ -99,6 +99,13 @@ body {
   max-height: 250px;
   overflow-y: auto;
 }
+table {
+  tbody {
+      tr:hover {
+          background-color: rgba(0, 200, 129, 0.1);
+      }
+  }
+}
 @keyframes spin {
     from { transform: scale(1) rotate(0deg);}
     to { transform: scale(1) rotate(360deg);}
