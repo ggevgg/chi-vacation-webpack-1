@@ -1,5 +1,6 @@
 export const groups = [
    '.Net',
+   '2D Artist',
    '3D artist',
    'Android',
    'BI',

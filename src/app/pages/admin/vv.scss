@@ -291,7 +291,11 @@
 .new-user-wrapper {
     margin: 0 0 0 -4px;
 }
-
+@media (min-width: 766px) {
+    .adminBtnsGroup label{
+        width: 14.3%;
+    }
+}
 @media (max-width: 767px) {
     .btn-group label.btn, .btn {
         border-radius: 0;
