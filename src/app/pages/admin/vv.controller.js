@@ -218,8 +218,11 @@ export default class VvController {
       });
     }
 
-    userInfo(user) {
-      this.calcEnableDays(this.calendarDay, user);
+    userInfo(user, isAlreadyCalc) {
+      if(!isAlreadyCalc) {
+        this.calcEnableDays(this.calendarDay, user);
+      }
+
       this.modal.open({
         templateUrl: require('!!file!../../components/userTools/modal/userInfo/userInfo.html'),
         controller: require('../../components/userTools/modal/userInfo/userInfo.controller'),
