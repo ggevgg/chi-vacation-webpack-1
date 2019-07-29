@@ -17,6 +17,7 @@ export const groups = [
    'Java',
    'Machine Learning',
    'Managers',
+   'Managers Alchevskykh',
    'Marketing Managers',
    'Markup',
    'NodeJS',
@@ -28,6 +29,6 @@ export const groups = [
    'Recruiters',
    'Ruby',
    'Sales',
+   'Unity 3D',
    'Unreal Engine'
   ]
- 
