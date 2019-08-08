@@ -30,5 +30,7 @@ export const groups = [
    'Ruby',
    'Sales',
    'Unity 3D',
-   'Unreal Engine'
+   'Unreal Engine',
+   'Computer Vision',
+   'Finance'
   ]
