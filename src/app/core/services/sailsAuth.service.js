@@ -23,10 +23,10 @@ export default class SailsAuthService {
 		return this.authUser.status;
 	}
 
-	signInUserByEmail({email, password}) {
+	signInUserByUsername({username, password}) {
 		let deferred = this.$q.defer();
 		let userForm = JSON.stringify({
-                email,
+                username,
 				password
         	});
 			

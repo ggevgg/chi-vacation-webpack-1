@@ -16,16 +16,16 @@
               </legend>
               <!-- Text input-->
               <div class="form-group">
-                <label class=" col-md-3 control-label " for="Email">Email</label>
+                <label class=" col-md-3 control-label " for="Username">Username</label>
                 <div class="col-xs-12 col-md-6">
                   <div class="input-group">
                     <span class="input-group-addon "><i class="glyphicon glyphicon-envelope"></i></span>
-                    <input  name="Email"
-                    type="email"
+                    <input  name="Username"
+                    type="text"
                     required
-                    placeholder="Enter Your Email"
+                    placeholder="Enter Your Username"
                     class="form-control input-md"
-                    ng-model='email'>
+                    ng-model='username'>
                   </div>
                 </div>
               </div>
@@ -53,13 +53,6 @@
                     <span ng-show="sending"><i class="glyphicon glyphicon-refresh spinning"></i></span>
                     Login
                   </button>
-                </div>
-              </div>
-                <!-- link -->
-              <div class="form-group">
-                <div class="row">
-                  <!-- <a class="password-link chi-link col-xs-12 col-sm-3" ui-sref={{states.RESETPASSWORD}}>Reset password</a> -->
-                  <a class="password-link chi-link" ui-sref={{states.CHANGEPASSWORD}}>Change password</a>
                 </div>
               </div>
             </fieldset>

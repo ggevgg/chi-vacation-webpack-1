@@ -14,8 +14,8 @@ function LoginController ($log, $state, $scope, toastr, states, sailsAuthService
       return
     }
     $scope.sending = true;
-    sailsAuthService.signInUserByEmail({
-      email: $scope.email,
+    sailsAuthService.signInUserByUsername({
+      username: $scope.username,
       password: $scope.passw || $scope.newPassword
     }).then( (user) => {
       if ($rootScope.prevState && 
